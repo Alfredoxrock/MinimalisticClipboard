@@ -201,3 +201,10 @@ Production checklist:
 - Implement revocation checks and refund handling
 - Use HTTPS for all endpoints
 
+## Notes
+- Need documentation on the website.
+- Documentation on code.
+- Premium payment method has to be fully functional (need a little bit of research on this)
+- Needs to be launch on the microsoft store.
+- Future (maybe it can be adapted for androids)
+
