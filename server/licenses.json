@@ -1,0 +1,11 @@
+{
+    "licenses": [
+        {
+            "key": "PRO-MC-2024-PREMIUM",
+            "email": "demo@example.com",
+            "productId": "minimalistic_clipboard_pro",
+            "createdAt": "2024-01-01T00:00:00.000Z",
+            "revoked": false
+        }
+    ]
+}

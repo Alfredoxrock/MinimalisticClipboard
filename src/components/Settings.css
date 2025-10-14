@@ -1,0 +1,166 @@
+.settings-panel {
+    background: white;
+    border-radius: 10px;
+    padding: 0;
+    margin: 20px 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    transition: all 0.3s ease;
+}
+
+body.dark-mode .settings-panel {
+    background: #1a1a2e;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    border-bottom: 1px solid #eee;
+    transition: border-color 0.3s ease;
+}
+
+body.dark-mode .settings-header {
+    border-bottom: 1px solid #2a2a3e;
+}
+
+.settings-header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode .settings-header h2 {
+    color: #e0e0e0;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #999;
+    cursor: pointer;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+.close-btn:hover {
+    background: #f0f0f0;
+    color: #333;
+}
+
+body.dark-mode .close-btn {
+    color: #888;
+}
+
+body.dark-mode .close-btn:hover {
+    background: #2a2a3e;
+    color: #e0e0e0;
+}
+
+.settings-content {
+    padding: 24px;
+}
+
+.setting-group {
+    margin-bottom: 24px;
+}
+
+.setting-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode .setting-group label {
+    color: #d0d0d0;
+}
+
+.setting-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.2s, background-color 0.3s, color 0.3s;
+    background: white;
+    color: #333;
+}
+
+body.dark-mode .setting-group input {
+    background: #0f0f23;
+    border-color: #2a2a3e;
+    color: #e0e0e0;
+}
+
+.setting-group input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.setting-group small {
+    display: block;
+    margin-top: 6px;
+    color: #999;
+    font-size: 12px;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode .setting-group small {
+    color: #666;
+}
+
+.settings-actions {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.save-btn,
+.cancel-btn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.save-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.save-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.cancel-btn {
+    background: #f0f0f0;
+    color: #666;
+}
+
+body.dark-mode .cancel-btn {
+    background: #2a2a3e;
+    color: #d0d0d0;
+}
+
+.cancel-btn:hover {
+    background: #e0e0e0;
+}
+
+body.dark-mode .cancel-btn:hover {
+    background: #3a3a4e;
+}
